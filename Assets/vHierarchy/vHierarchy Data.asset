@@ -13,5 +13,47 @@ MonoBehaviour:
   m_Name: vHierarchy Data
   m_EditorClassIdentifier: 
   sceneDatasByGuid:
-    keys: []
-    values: []
+    keys:
+    - 55daccc09a3b69647bbab145b54a3ab3
+    values:
+    - goDatasByGlobalId:
+        keys:
+        - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-1703568385-0
+        - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-1783572213-0
+        - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-2046629158-0
+        - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-817075155-0
+        - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-1565887663878291440-0
+        values:
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 6
+          icon: Folder Icon
+        - iColor: 4
+          icon: Folder Icon
+        - iColor: 0
+          icon: Folder Icon
+      goDatasByInstanceId:
+        keys: 5c7e00009e7e00009e7f0000427b00004e800000d49a0000169b0000169c0000b8970000c69c0000
+        values:
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 6
+          icon: Folder Icon
+        - iColor: 4
+          icon: Folder Icon
+        - iColor: 0
+          icon: Folder Icon
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 6
+          icon: Folder Icon
+        - iColor: 4
+          icon: Folder Icon
+        - iColor: 0
+          icon: Folder Icon
