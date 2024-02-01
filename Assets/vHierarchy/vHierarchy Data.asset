@@ -15,6 +15,8 @@ MonoBehaviour:
   sceneDatasByGuid:
     keys:
     - 55daccc09a3b69647bbab145b54a3ab3
+    - 
+    - 8397429a6b8604f4ca5bef1b552d4d1b
     values:
     - goDatasByGlobalId:
         keys:
@@ -22,7 +24,6 @@ MonoBehaviour:
         - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-1783572213-0
         - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-2046629158-0
         - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-817075155-0
-        - GlobalObjectId_V1-2-55daccc09a3b69647bbab145b54a3ab3-1565887663878291440-0
         values:
         - iColor: 9
           icon: Folder Icon
@@ -31,11 +32,9 @@ MonoBehaviour:
         - iColor: 6
           icon: Folder Icon
         - iColor: 4
-          icon: Folder Icon
-        - iColor: 0
           icon: Folder Icon
       goDatasByInstanceId:
-        keys: 5c7e00009e7e00009e7f0000427b00004e800000d49a0000169b0000169c0000b8970000c69c0000
+        keys: ac7e0000fe7e000008800000627b0000b880000080b60000d2b60000dcb700000eb300008cb80000c6c0000018c1000022c2000054bd0000d2c20000e62a0100382b0100402c0100762701005c620100ae620100b6630100ec5e0100
         values:
         - iColor: 9
           icon: Folder Icon
@@ -56,4 +55,89 @@ MonoBehaviour:
         - iColor: 4
           icon: Folder Icon
         - iColor: 0
+          icon: Folder Icon
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 6
+          icon: Folder Icon
+        - iColor: 4
+          icon: Folder Icon
+        - iColor: 0
+          icon: Folder Icon
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 6
+          icon: Folder Icon
+        - iColor: 4
+          icon: Folder Icon
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 6
+          icon: Folder Icon
+        - iColor: 4
+          icon: Folder Icon
+    - goDatasByGlobalId:
+        keys: []
+        values: []
+      goDatasByInstanceId:
+        keys: 
+        values: []
+    - goDatasByGlobalId:
+        keys:
+        - GlobalObjectId_V1-2-8397429a6b8604f4ca5bef1b552d4d1b-1429208082-0
+        - GlobalObjectId_V1-2-8397429a6b8604f4ca5bef1b552d4d1b-45720218-0
+        - GlobalObjectId_V1-2-8397429a6b8604f4ca5bef1b552d4d1b-586452126-0
+        - GlobalObjectId_V1-2-8397429a6b8604f4ca5bef1b552d4d1b-499282179-0
+        - GlobalObjectId_V1-2-8397429a6b8604f4ca5bef1b552d4d1b-1773391329-0
+        - GlobalObjectId_V1-2-8397429a6b8604f4ca5bef1b552d4d1b-1388157802-0
+        - GlobalObjectId_V1-2-8397429a6b8604f4ca5bef1b552d4d1b-1898309257-0
+        values:
+        - iColor: 3
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+      goDatasByInstanceId:
+        keys: b82bfeff967efdff2487fdffe27afdfffa78fdffb276fdff1c67010004650100aa6501007a650100c067010004670100e093fcff
+        values:
+        - iColor: 3
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 3
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 2
+          icon: Folder Icon
+        - iColor: 9
+          icon: Folder Icon
+        - iColor: 2
           icon: Folder Icon
