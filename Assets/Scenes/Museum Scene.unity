@@ -2818,8 +2818,8 @@ Transform:
   m_GameObject: {fileID: 585960754}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0000021904707, y: -0.70710844, z: -0.7071052, w: 0.000002026558}
-  m_LocalPosition: {x: 1.8259, y: -4.3750525, z: -5.964594}
-  m_LocalScale: {x: 0.20558, y: 0.6, z: 0.17500383}
+  m_LocalPosition: {x: 1.7889, y: -4.3750525, z: -5.964594}
+  m_LocalScale: {x: 0.21298088, y: 0.6, z: 0.17500383}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 586452127}
@@ -5117,7 +5117,7 @@ GameObject:
   - component: {fileID: 1045982275}
   - component: {fileID: 1045982274}
   m_Layer: 0
-  m_Name: Floor (1)
+  m_Name: Red Room Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 1047260495}
   - component: {fileID: 1047260494}
   m_Layer: 0
-  m_Name: Floor (4)
+  m_Name: Green Room Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5333,6 +5333,10 @@ PrefabInstance:
       value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3303028799532401549, guid: 21d8c7662180dac4aa8fd0816043a9a4, type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303028799532401549, guid: 21d8c7662180dac4aa8fd0816043a9a4, type: 3}
       propertyPath: m_Colliders.Array.data[0]
       value: 
       objectReference: {fileID: 1607667854}
@@ -5344,6 +5348,10 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[2]
       value: 
       objectReference: {fileID: 1047260494}
+    - target: {fileID: 3303028799532401549, guid: 21d8c7662180dac4aa8fd0816043a9a4, type: 3}
+      propertyPath: m_Colliders.Array.data[3]
+      value: 
+      objectReference: {fileID: 1860934628}
     - target: {fileID: 6663919421303146110, guid: 21d8c7662180dac4aa8fd0816043a9a4, type: 3}
       propertyPath: m_Name
       value: Teleport Area Setup
@@ -9285,7 +9293,7 @@ GameObject:
   - component: {fileID: 1607667855}
   - component: {fileID: 1607667854}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Entrance Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11348,7 +11356,7 @@ GameObject:
   - component: {fileID: 1860934629}
   - component: {fileID: 1860934628}
   m_Layer: 0
-  m_Name: Floor (1)
+  m_Name: White Room Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
