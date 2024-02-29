@@ -5,12 +5,13 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class DistanceTrigger2 : MonoBehaviour
 {
-[SerializeField] private Transform target;
-[SerializeField] private float activationDistance = 3.0f;
-[SerializeField] private float resetDelay = 10.0f;
-[SerializeField] private string triggerName = "NextAnim";
-private float timer;
-private Animator anim;
+    [SerializeField] private Transform target;
+    [SerializeField] private float activationDistance = 3.0f;
+    [SerializeField] private float resetDelay = 10.0f;
+    [SerializeField] private string triggerName = "NextAnim";
+    [SerializeField] private AudioSource audioSource; // Add this field for the audio source
+    private float timer;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -22,15 +23,21 @@ private Animator anim;
     void Update()
     {
         float distance = Vector3.Distance(this.transform.position, target.position);
-        if (distance < activationDistance && timer <= 0) {
+        if (distance < activationDistance && timer <= 0)
+        {
             Activate();
         }
 
-        if(timer > 0) timer -= Time.deltaTime;
+        if (timer > 0) timer -= Time.deltaTime;
     }
 
-    void Activate() {
+    void Activate()
+    {
         anim.SetTrigger(triggerName);
         timer = resetDelay;
+        if (audioSource != null)
+        {
+            audioSource.Play(); // Play the audio source if it exists
+        }
     }
 }
